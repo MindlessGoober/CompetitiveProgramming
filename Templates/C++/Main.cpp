@@ -2,4 +2,4 @@
 
 using namespace std;
 
-signed main() { cin.tie(NULL)->sync_with_stdio(false); }
+int main() { cin.tie(NULL)->sync_with_stdio(false); }
