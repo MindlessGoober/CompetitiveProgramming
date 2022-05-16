@@ -2,11 +2,11 @@ import java.io.*;
 import java.util.*;
 
 class Main {
-  static FastScanner scanner = new FastScanner();
-  static PrintWriter writer = new PrintWriter(System.out);
+  private static final FastScanner scanner = new FastScanner();
+  private static final PrintWriter writer = new PrintWriter(System.out);
 
   public static void main(String[] args) {
-    int testCases = 1;
+    final int testCases = 1;
     for (int testCase = 1; testCase <= testCases; testCase++) {
       new Main().solve(testCase);
     }
@@ -20,8 +20,8 @@ class Main {
 }
 
 class FastScanner {
-  BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-  StringTokenizer st = new StringTokenizer("");
+  private final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+  private StringTokenizer st = new StringTokenizer("");
 
   String next() {
     while (!st.hasMoreElements())
